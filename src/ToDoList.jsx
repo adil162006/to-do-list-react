@@ -21,25 +21,7 @@ let deleteTodo = (id) => {
     return prevTodos.filter((todo) => todo.id !== id);
   });
 };
-// let toUppercase = () => {
-//   setTodos((prevTodos) => {
-//     return prevTodos.map((todo) => {
-//       return { ...todo, task: todo.task.toUpperCase() };
-//     });
-//   });
-// };
-// let toUppercaseOne = (id) => {
-//   setTodos((prevTodos) => {
-//     return prevTodos.map((todo) => {
-//         if (todo.id === id){           
-//             return { ...todo, task: todo.task.toUpperCase() };
-//         }
-//         else{
-//             return todo
-//         }
-//     });
-//   });
-// };
+
 let isDone=(id)=>{
     setTodos((prevTodos)=>{
         return prevTodos.map((todo)=>{
