@@ -57,13 +57,10 @@ let allDone = () => {
                         &nbsp;&nbsp;&nbsp;&nbsp;
                             <button onClick={()=> deleteTodo(todo.id)}>delete</button>
                             <button onClick={()=>isDone(todo.id)}>Done</button>
-                            {/* <button onClick={()=>toUppercaseOne(todo.id)}> Uppercase one</button> */}
                         </li>
                     ))
                 }
             </ul>
-            {/* <br /><br /><br /> */}
-            {/* <button onClick={toUppercase}>Uppercase</button> */}
             <button  onClick={allDone}>All Done</button>
         </div>
     )
